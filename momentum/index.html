@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <link rel="stylesheet" href="owfont-regular.css">
+    <link rel="stylesheet" href="dist/styles.css">
+    <script src="quotes.js" defer></script>
+    <script src="script.js" defer></script>
+    <script src="weather.js" defer></script>
+    <title>Momentum</title>
+    </head>
+    <body> 
+        <div class='collection'>
+            <img class="collection_img" src="assets/img/slide1.png">
+            <button type="button" class='button_slider'>                
+            </button>
+        </div>
+        <main>
+            <time class="time">Time</time>
+            <time class="date">Date</time>
+            <div class="greet">
+              <span class="greeting">Hello,</span>
+              <span class="name" contenteditable> [Name] <span>
+            </div>
+            <div class='focusDiv'>
+                <h2>What Is Your Focus For Today?</h2>
+                <h2 class="focus" contenteditable="true">[FOCUS]</h2>
+            </div>
+        </main>
+        <div class="quotes">
+            <blockquote class="blockquotes">
+            </blockquote>
+            <figcaption class="figcaption"> 
+            </figcaption>
+            <div class="button2">
+                <button type='submit' class='btn'>
+                    button
+                </button>
+            </div>
+        </div>
+        <div class="weather">
+            <i class="weather-icon owf"></i>
+            <div class=weather-text>
+                <div class="temperature"></div>
+                <div class="weather-description"></div>
+                <div class="wind"></div>
+                <div class="humidity"></div>
+                <div class="city" contenteditable="true"></div>
+            </div>
+        </div>
+       
+       
+    </body>
+</html>
